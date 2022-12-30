@@ -246,6 +246,11 @@
         flex-direction: column;
         width: 100%;
     }
+    .containerCompEnv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     #Js6{
         margin-left: 49px !important;
     }
