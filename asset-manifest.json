@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/mon-cv2/static/css/main.073c9b0a.css",
-    "main.js": "/mon-cv2/static/js/main.4103276a.js",
-    "static/js/787.93504b64.chunk.js": "/mon-cv2/static/js/787.93504b64.chunk.js",
-    "static/media/logo.svg": "/mon-cv2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/mon-cv2/static/css/main.be666e47.css",
+    "main.js": "/mon-cv2/static/js/main.6934f08c.js",
+    "static/media/pexels-kate-trifo-4057059.jpg": "/mon-cv2/static/media/pexels-kate-trifo-4057059.968ee6a9d32fc2836cad.jpg",
+    "static/media/pexels-andrew-neel-8960464.jpg": "/mon-cv2/static/media/pexels-andrew-neel-8960464.ba50663d407dc98d95cd.jpg",
+    "static/media/xavatario.png": "/mon-cv2/static/media/xavatario.da1a3a6c14ab8c316a39.png",
     "index.html": "/mon-cv2/index.html",
-    "main.073c9b0a.css.map": "/mon-cv2/static/css/main.073c9b0a.css.map",
-    "main.4103276a.js.map": "/mon-cv2/static/js/main.4103276a.js.map",
-    "787.93504b64.chunk.js.map": "/mon-cv2/static/js/787.93504b64.chunk.js.map"
+    "static/media/xmark-solid.svg": "/mon-cv2/static/media/xmark-solid.d601978a6469fed27789c997645754be.svg",
+    "main.be666e47.css.map": "/mon-cv2/static/css/main.be666e47.css.map",
+    "main.6934f08c.js.map": "/mon-cv2/static/js/main.6934f08c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4103276a.js"
+    "static/css/main.be666e47.css",
+    "static/js/main.6934f08c.js"
   ]
 }
