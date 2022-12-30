@@ -230,11 +230,36 @@ main{
     flex-direction: row;
     width:fit-content;
     margin-top: 30px;
+    transform: translate(-3000px,0px);
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 }
+.containerCompDesign2{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    margin-top: 30px;
+    transform: translate(-3000px,0px);
+    animation-name: appearLeft;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation-fill-mode: forwards;
+}
 .containerCompEnv{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    margin-top: 30px;
+    transform: translate(3000px,0px);
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.containerCompEnv2{
     display: flex;
     flex-direction: row;
     width:fit-content;
@@ -242,6 +267,11 @@ main{
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    transform: translate(3000px,0px);
+    animation-name: appearRight;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 .cardComp{
     display: flex;

@@ -57,14 +57,17 @@ export default function Landing(){
      window.addEventListener('scroll',()=>{
         let position=window.scrollY
         console.log(position)
-        if(position >=1100 && window.innerWidth>820){
+        if(position >=1100){
             document.getElementById('animationCompFront').className="containerCompFront2"
         }
         else{
             console.log('hello')
         }
-        if(position>=1200 && window.innerWidth>820){
+        if(position>=1200){
             document.getElementById('animationCompBack').className="containerCompBack2"
+            document.getElementById('containerCompDesignAnimation').className="containerCompDesign2"
+            document.getElementById('containerCompEnvAnimation').className="containerCompEnv2"
+            console.log("salut")
         }
         else{
             console.log('hello')
@@ -577,7 +580,7 @@ export default function Landing(){
                             </div>
           
                 </div>
-                <div className='containerCompDesign'>
+                <div className='containerCompDesign' id="containerCompDesignAnimation">
                     <div className='iconComp'>
                         <PencilPlus
                         size={200}
@@ -729,7 +732,7 @@ export default function Landing(){
                         </div>
                     </div>
                 </div>
-                <div className='containerCompEnv'>
+                <div className='containerCompEnv' id="containerCompEnvAnimation">
                     <div className='cardComp'>
                         <div className='h1Env'>Environnement de travail</div>
                         <div className='containerCardCompEnv'>
