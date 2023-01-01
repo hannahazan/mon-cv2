@@ -222,6 +222,9 @@
 }
 
 @media (max-width:768px){
+    .devP{
+        height: 60%;
+    }
     .cardComp{
         width: 100%;
         min-width: 0px;
