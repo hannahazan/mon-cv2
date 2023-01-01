@@ -251,6 +251,38 @@
         flex-direction: column;
         width: 100%;
     }
+    .containerCompFront{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompBack{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompDesign{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompEnv{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompFront2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompBack2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompDesign2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containerCompEnv2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     #Js6{
         margin-left: 49px !important;
     }
