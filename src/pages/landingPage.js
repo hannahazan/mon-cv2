@@ -15,6 +15,9 @@ import { Star } from 'tabler-icons-react';
 import { DeviceDesktop } from 'tabler-icons-react';
 import { UserCircle } from 'tabler-icons-react';
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+
+
               
 export default function Landing(){
     
@@ -75,7 +78,30 @@ export default function Landing(){
        
     })
     
-    
+    const cardHoverFlappy=()=>{
+        document.getElementById('flappyButtonId').className='flappyButton2'
+        document.getElementById('hiddenButtonCardRealIdFlappy').className='hiddenButtonCardReal2'
+    }
+    const cardNotHoverFlappy=()=>{
+        document.getElementById('flappyButtonId').className='flappyButton'
+        document.getElementById('hiddenButtonCardRealIdFlappy').className='hiddenButtonCardReal'
+    }
+    const cardHoverOhMyFood=()=>{
+        document.getElementById('ohmyfoodId').className='flappyButton2'
+        document.getElementById('hiddenButtonCardRealIdOhMy').className='hiddenButtonCardReal2'
+    }
+    const cardNotHoverOhMyFood=()=>{
+        document.getElementById('ohmyfoodId').className='flappyButton'
+        document.getElementById('hiddenButtonCardRealIdOhMy').className='hiddenButtonCardReal'
+    }
+    const cardHoverPassword=()=>{
+        document.getElementById('passwordgeneratorId').className='flappyButton2'
+        document.getElementById('hiddenButtonCardRealIdPassword').className='hiddenButtonCardReal2'
+    }
+    const cardNotHoverPassword=()=>{
+        document.getElementById('passwordgeneratorId').className='flappyButton'
+        document.getElementById('hiddenButtonCardRealIdPassword').className='hiddenButtonCardReal'
+    }
     return(
    <div className="all">    
         <header>
@@ -771,6 +797,38 @@ export default function Landing(){
                             strokeWidth={2}
                             color={'#41436A'}
                         />
+                    </div>
+                </div>
+            </section>
+            <section className='réalisation'>
+                <p className='pReal'>Réalisations</p>
+                <div className="containercardreal">
+                    <div className='realisationCardFlappy' id='flappyId' onMouseOver={cardHoverFlappy} onMouseLeave={cardNotHoverFlappy}>
+                        <div className='filtreRealisation'>
+                            <Link to="/flappyBird" className='Linkreal'>
+                                <div className='flappyButton' id='flappyButtonId'>FlappyBird
+                                    <button className='hiddenButtonCardReal' id='hiddenButtonCardRealIdFlappy'>Aller voir</button>
+                                </div>
+                            </Link>
+                        </div> 
+                    </div>
+                    <div className='realisationCardProjet'>
+                            <div className='filtreRealisation' onMouseOver={cardHoverOhMyFood} onMouseLeave={cardNotHoverOhMyFood}>
+                                <Link to="/projet3" className='Linkreal' >
+                                    <div className='flappyButton' id='ohmyfoodId'>ohmyfood
+                                        <button className='hiddenButtonCardReal' id='hiddenButtonCardRealIdOhMy'>Aller voir</button>
+                                    </div>
+                                </Link> 
+                            </div> 
+                    </div>
+                    <div className='realisationCardPassword'>
+                            <div className='filtreRealisation' onMouseOver={cardHoverPassword} onMouseLeave={cardNotHoverPassword}>
+                                <Link to="/PasswordGenerator" className='Linkreal'>
+                                    <div className='flappyButton' id='passwordgeneratorId'>passwordgenerator
+                                        <button className='hiddenButtonCardReal' id='hiddenButtonCardRealIdPassword'>Aller voir</button>
+                                    </div>
+                                </Link>
+                            </div> 
                     </div>
                 </div>
             </section>

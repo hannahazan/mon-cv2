@@ -218,7 +218,55 @@
         animation-duration: 1s;
         animation-fill-mode: forwards; 
     }
-    
+   /**************section réalisation**********/
+   .containercardreal{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.realisationCardFlappy{
+    background-image:url("../pictures/flappy.PNG");
+    background-size:100% 100%;
+    width: 75%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 10px 5px 10px #696969;
+    margin-top: 20px;
+
+}
+.realisationCardProjet{
+    background-image: url("../pictures/homyfood.PNG");
+    background-size:100% 100%;
+    width: 75%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 10px 5px 10px #696969;
+    margin-top: 20px;
+}
+.realisationCardPassword{
+    background-image: url("../pictures/passwordgenerator.PNG");
+    background-size:100% 100%;
+    width: 75%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 10px 5px 10px #696969;
+    margin-top: 20px;
+}
 }
 
 @media (max-width:768px){
