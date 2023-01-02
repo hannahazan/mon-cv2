@@ -147,7 +147,8 @@
     .cardComp{
         width: 90%;
         min-width: 0px;
-        max-width: none;  
+        max-width: none; 
+        margin-left: 20px; 
     }
     .containerCompFront{
         width: 90%;
@@ -274,16 +275,17 @@
         height: 60%;
     }
     .cardComp{
-        width: 100%;
+        width: 298px;
         min-width: 0px;
         max-width: none;
         height: fit-content;
-        
+        margin-left: 27px;
     }
     .containerCardCompFront{
         flex-direction: column;
         width: 100%;
     }
+    
     .PDescrFront{
         width: 100%;
     }
@@ -292,16 +294,19 @@
         flex-direction: column;
         width: 100%;
     }
+    
     .containerCardCompDesign{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+   
     .containerCompEnv{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+    
     .containerCompFront{
         margin-left: 0px;
         margin-right: 0px;
@@ -321,18 +326,22 @@
     .containerCompFront2{
         margin-left: 0px;
         margin-right: 0px;
+        width: 100%;
     }
     .containerCompBack2{
         margin-left: 0px;
         margin-right: 0px;
+        width: 100%;
     }
     .containerCompDesign2{
         margin-left: 0px;
         margin-right: 0px;
+        width: 100%;
     }
     .containerCompEnv2{
         margin-left: 0px;
         margin-right: 0px;
+        width: 100%;
     }
     #Js6{
         margin-left: 49px !important;
