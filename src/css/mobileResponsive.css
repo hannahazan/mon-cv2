@@ -279,7 +279,7 @@
         min-width: 0px;
         max-width: none;
         height: fit-content;
-        margin-left: 27px;
+        margin-left: 16px;
     }
     .containerCardCompFront{
         flex-direction: column;
