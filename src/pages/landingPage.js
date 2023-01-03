@@ -105,21 +105,20 @@ export default function Landing(){
     }
     return(
    <div className="all">    
-        <header>
+        <header id='Navid'>
             <div className="displayFiltre"> 
-                <nav className="navBar">
-                    <Home
+                <nav className="navBar" >
+                <a href="#Navid" className='aNavbar'><Home
                     size={30}
                     strokeWidth={2}
                     color={'#FFB8B8'}
                     className='home'
-                    />
+                    /></a>
                     <ul className="navList">
-                        <li>À propos</li>
-                        <li>Compétences</li>
-                        <li>Parcours</li>
-                        <li>Réalisations</li>
-                        <li>Contact</li>
+                        <a href="#Apropos" className='aNavbar'><li>À propos</li></a>
+                        <a href="#Comp" className='aNavbar'><li>Compétences</li></a>
+                        <a href='#real' className='aNavbar'><li>Réalisations</li></a>
+                        <a href='#contact' className='aNavbar'><li>Contact</li></a>
                     </ul>
                     <div className='containerMenu' id="contMenu"><Menu2
                     size={48}
@@ -132,25 +131,25 @@ export default function Landing(){
                     <img src={cross} className='cross' id="Cross" onClick={changeClassCross}></img>
                 </nav>
                 <ul className="responsivenavList"  id="navListrespon">
-                    <li className='responLi'>
-                        À propos   
-                    </li>
+                    <a href="#Navid" className='aNavbar'><li className='responLi'>
+                        Home  
+                    </li></a>
                     <div className='line' id="Line1"></div>
-                    <li className='responLi'>
+                    <a href="#Apropos" className='aNavbar'><li className='responLi'>
+                        À propos   
+                    </li></a>
+                    <div className='line' id="Line1"></div>
+                    <a href="#Comp" className='aNavbar'><li className='responLi'>
                         Compétences
-                    </li>
+                    </li></a>
                     <div className='line' id="Line2"></div>
-                    <li className='responLi'>
-                        Parcours
-                    </li>
-                    <div className='line' id="Line3"></div>
-                    <li className='responLi'>
+                    <a href='#real' className='aNavbar'><li className='responLi'>
                         Réalisations
-                    </li>
+                    </li></a>
                     <div className='line' id="Line4"></div>
-                    <li className='responLi'>
+                    <a href='#contact' className='aNavbar'><li className='responLi'>
                         Contact
-                    </li>
+                    </li></a>
                     <div className='line'id="Line5"></div>
                 </ul>
                 <section className="devP">
@@ -169,43 +168,43 @@ export default function Landing(){
                     </div>
                 </section>
                 <section className="picto">
-                    <div className="pictoAndP">
+                    <a href='#frontend' className='aCode'><div className="pictoAndP">
                         <Code
                         size={48}
                         strokeWidth={2}
                         color={'white'}
                         />
                         <p>Front-end</p>
-                    </div>
-                    <div className="pictoAndP">
+                    </div></a>
+                    <a href='#backend' className='aCode'><div className="pictoAndP">
                         <Database
                         size={48}
                         strokeWidth={2}
                         color={'white'}
                         />
                         <p>Back-end</p>
-                    </div>
-                    <div className="pictoAndP">
-                        <DeviceMobile
-                        size={48}
-                        strokeWidth={2}
-                        color={'white'}
-                        />
-                        <p>Mobile</p>
-                    </div>
-                    <div className="pictoAndP">
+                    </div></a>
+                    <a href='#design' className='aCode'><div className="pictoAndP">
                         <PencilPlus
                         size={48}
                         strokeWidth={2}
                         color={'white'}
                         />
                         <p>Design</p>
-                    </div>
+                    </div></a>
+                    <a href='#workflow' className='aCode'><div className="pictoAndP">
+                        <DeviceAnalytics
+                        size={48}
+                        strokeWidth={2}
+                        color={'white'}
+                        />
+                        <p>Workflow</p>
+                    </div></a>
                 </section>
             </div>
         </header>
         <main>
-            <section className='Apropos'>
+            <section className='Apropos' id='Apropos'>
                 <div className='avatarCard'>
                     <img src={avatar} className='avatar'></img>
                     <div className='containParaAva1'>
@@ -231,10 +230,10 @@ export default function Landing(){
                     <LoremIpsum p={3} />
                 </div>,
             </section>
-            <section className='compétences'>
+            <section className='compétences' id="Comp">
                 <p className='pComp'>Compétences</p>
                 <div className='containerCompFront' id='animationCompFront'>
-                    <div className='iconComp'>
+                    <div className='iconComp' >
                         <Code
                             size={200}
                             strokeWidth={2}
@@ -242,7 +241,7 @@ export default function Landing(){
                             />
                     </div>
                     <div className='cardComp'>
-                        <div className='pFront'>Front-end</div>
+                        <div className='pFront' id='frontend'>Front-end</div>
                         <div className='PDescrFront'>Création et intégration de sites web et applications mobiles responsive, accessibles et répondant aux normes W3C.</div>
                         <div className='containerCardCompFront'>
                             <div className='containerCardAllCompPAndStar'>
@@ -454,7 +453,7 @@ export default function Landing(){
                 </div>
                 <div className='containerCompBack' id='animationCompBack'>
                     <div className='cardComp'>
-                        <div className='pBack'>Back-end</div>
+                        <div className='pBack' id='backend'>Back-end</div>
                         <div className='PDescrBack'>Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet et modèle 3 tiers, mise en ligne.</div>
                         <div className='containerCardCompBack'>
                             <div className='containerCardAllCompPAndStar'>
@@ -616,7 +615,7 @@ export default function Landing(){
                         />
                     </div>
                     <div className='cardComp'>
-                        <div className='pDesign'>Web design</div>
+                        <div className='pDesign' id='design'>Web design</div>
                         <div className='PDescrBack'>Conception centrée utilisateur selon les règles d'UX lors de la création d'une interface utilisateur.</div>
                         <div className='containerCardCompDesign'>
                             <div className='containerCardAllCompPAndStar'>
@@ -761,7 +760,7 @@ export default function Landing(){
                 </div>
                 <div className='containerCompEnv' id="containerCompEnvAnimation">
                     <div className='cardComp'>
-                        <div className='h1Env'>Environnement de travail</div>
+                        <div className='h1Env' id='workflow'>Environnement de travail</div>
                         <div className='containerCardCompEnv'>
                             <div className='containerIconP'>
                                 <DeviceDesktop
@@ -801,7 +800,7 @@ export default function Landing(){
                     </div>
                 </div>
             </section>
-            <section className='réalisation'>
+            <section className='réalisation' id="real">
                 <p className='pReal'>Réalisations</p>
                 <div className="containercardreal">
                     <div className='realisationCardFlappy' id='flappyId' onMouseOver={cardHoverFlappy} onMouseLeave={cardNotHoverFlappy}>
@@ -833,7 +832,7 @@ export default function Landing(){
                     </div>
                 </div>
             </section>
-            <section className='contact'>
+            <section className='contact' id='contact'>
                 <div className='containerPContact'>
                     <p className='Pcontact'>Contactez-moi!</p>
                     <p className='Pactuellement'>Actuellement à la recherche d'une <strong>Alternance</strong>, je suis disponible sur <strong>Paris</strong> et sa <strong>région</strong> pour tout entretien!</p>

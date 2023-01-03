@@ -85,6 +85,9 @@ header{
     color: white;
     align-items: center;
 }
+.aCode{
+    text-decoration: none;
+}
 
 .responsivenavList{
     position:fixed;
@@ -106,10 +109,15 @@ header{
 .cross{
     display:none
 }
+.aNavbar{
+    text-decoration: none;
+    color: #FFB8B8;
+}
 /*main*/
 main{
     height:fit-content
 }
+
 /****************************************************section à propos************************************************************************/
 .Apropos{
     display: flex;
