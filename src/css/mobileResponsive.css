@@ -231,7 +231,7 @@
 .realisationCardFlappy{
     background-image:url("../pictures/flappy.PNG");
     background-size:100% 100%;
-    width: 75%;
+    width: 90%;
     height: 300px;
     border-radius: 20px;
     display: flex;
@@ -245,7 +245,7 @@
 .realisationCardProjet{
     background-image: url("../pictures/homyfood.PNG");
     background-size:100% 100%;
-    width: 75%;
+    width: 90%;
     height: 300px;
     border-radius: 20px;
     display: flex;
@@ -258,7 +258,7 @@
 .realisationCardPassword{
     background-image: url("../pictures/passwordgenerator.PNG");
     background-size:100% 100%;
-    width: 75%;
+    width: 90%;
     height: 300px;
     border-radius: 20px;
     display: flex;
