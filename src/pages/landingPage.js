@@ -3,6 +3,7 @@ import '../css/landingPage.css'
 import '../css/mobileResponsive.css'
 import cross from '../pictures/xmark-solid.svg'
 import avatar from '../pictures/xavatario.png'
+import cv from '../downloads/Azan-Hannah-cv.pdf'
 import { LoremIpsum, Avatar } from 'react-lorem-ipsum'
 import { Home } from 'tabler-icons-react';
 import { Code } from 'tabler-icons-react';
@@ -832,6 +833,20 @@ export default function Landing(){
                     </div>
                 </div>
             </section>
+            <section className='contact'>
+                <div className='containerPContact'>
+                    <p className='Pcontact'>Contactez-moi!</p>
+                    <p className='Pactuellement'>Actuellement à la recherche d'une <strong>Alternance</strong>, je suis disponible sur <strong>Paris</strong> et sa <strong>région</strong> pour tout entretien!</p>
+                </div>
+                <div className='containerButtonContact'>
+                    <a href={cv} download={cv} className="aDownloadContact"><button type="submit" className='ButtonDownloadContact'>Télécharger mon CV</button></a>
+                    <a href="mailto:hannahazan@hotmail.fr" className='aMailContact'><button type="submit" className='ButtonMailContact'>M'envoyer un mail</button></a>
+                </div>
+            </section>
+            <footer>   
+                <p className='p2023'>Hannah Azan © 2023</p>
+                <p className='droits'>Tous droits réservés</p>
+            </footer>
         </main>
     </div> 
 

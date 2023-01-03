@@ -386,7 +386,7 @@ main{
     text-align: center;
    padding-bottom: 20px;
     
-}
+} 
 .containercardreal{
     height: fit-content;
     width: 100%;
@@ -521,4 +521,97 @@ main{
 .hiddenButtonCardReal2:hover{
     background: linear-gradient(rgba(169,241,223,1) ,rgba(255,228,196,1) );
     box-shadow: 5px 5px 25px 2px #888;
+}
+/*****************section contact***************************/
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: 	#DCDCDC ;
+    padding-bottom: 20px;
+}
+.containerPContact{
+    text-align: center;
+}
+.Pcontact{
+    font-weight: bold;
+    font-size: 40px;
+}
+.Pactuellement{
+    font-style: italic;
+    font-size: 20px;
+}
+.containerButtonContact{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.aDownloadContact{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.aMailContact{
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.ButtonDownloadContact{
+    border-radius: 26px;
+    height: 52px;
+    width: 150px;
+    background: linear-gradient(rgba(169,241,223,0.6) ,rgba(255,228,196,0.6) );
+    padding: 0px;
+    border: none;
+    color: #f7f7f7;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 1px #888;
+    margin-top: 20px;
+    opacity: 1;
+    color:black;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-right:20px ;
+}
+.ButtonMailContact{
+    border-radius: 26px;
+    height: 52px;
+    width: 150px;
+    background: linear-gradient(rgba(169,241,223,0.6) ,rgba(255,228,196,0.6) );
+    padding: 0px;
+    border: none;
+    color: #f7f7f7;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 1px #888;
+    margin-top: 20px;
+    opacity: 1;
+    color:black;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+/***********footer********/
+footer{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+   
+}
+.p2023{
+  margin-bottom:0px;
+  margin-top: 10px;
+}
+.droits{
+    margin-top: 0px;
 }
