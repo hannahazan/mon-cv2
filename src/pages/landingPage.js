@@ -230,8 +230,8 @@ export default function Landing(){
                    <p className='titleApropos'>A Propos de moi</p>
                    <p>Depuis toujours passionnée par le domaine du jeux vidéo et l’informatique de manière plus large je tente aujourd’hui de concilier ces passions avec ma réalité professionnelle.<br/><br/>
 C’est tout naturellement que je me suis dirigée vers le développement web afin d’entamer ma reconversion.<br/><br/>
-En effet après avoir suivie plusieurs formations  j’ai pû constater que ce domaine particulier de l’informatique avait le mérite de lier la logique info et créativité , qui sont, pour moi, deux pendants d’une reconversion réussie !<br/><br/> 
-Mon profil commercial et juridique sera, je suis certaine,un atout qui me permettra d’apporter un regard neuf sur ce métier.<br/><br/>
+En effet après avoir suivi plusieurs formations  j’ai pû constater que ce domaine particulier de l’informatique avait le mérite de lier logique info et créativité qui sont, pour moi, deux pendants d’une reconversion réussie !<br/><br/> 
+Mon profil commercial et juridique sera, j'en suis certaine, un atout qui permettra d’apporter un regard neuf sur ce métier.<br/><br/>
 Aujourd’hui à la recherche d’une alternance pour valider mon titre RNCP de développeuse j’espère que ces quelques lignes auront sû éveiller votre intérêt.<br/><br/>
 Au plaisir de vous lire.
 </p>  
