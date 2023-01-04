@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mon-cv2/static/css/main.b967bdb2.css",
-    "main.js": "/mon-cv2/static/js/main.bfe6a7b1.js",
+    "main.js": "/mon-cv2/static/js/main.15f61215.js",
     "static/media/pexels-kate-trifo-4057059.jpg": "/mon-cv2/static/media/pexels-kate-trifo-4057059.968ee6a9d32fc2836cad.jpg",
     "static/media/pexels-andrew-neel-8960464.jpg": "/mon-cv2/static/media/pexels-andrew-neel-8960464.ba50663d407dc98d95cd.jpg",
     "static/media/passwordgenerator.PNG": "/mon-cv2/static/media/passwordgenerator.ee6eb7dbf0f4684a84e0.PNG",
@@ -12,10 +12,10 @@
     "index.html": "/mon-cv2/index.html",
     "static/media/xmark-solid.svg": "/mon-cv2/static/media/xmark-solid.d601978a6469fed27789c997645754be.svg",
     "main.b967bdb2.css.map": "/mon-cv2/static/css/main.b967bdb2.css.map",
-    "main.bfe6a7b1.js.map": "/mon-cv2/static/js/main.bfe6a7b1.js.map"
+    "main.15f61215.js.map": "/mon-cv2/static/js/main.15f61215.js.map"
   },
   "entrypoints": [
     "static/css/main.b967bdb2.css",
-    "static/js/main.bfe6a7b1.js"
+    "static/js/main.15f61215.js"
   ]
 }
