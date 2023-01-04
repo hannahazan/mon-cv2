@@ -138,11 +138,11 @@ export default function Landing(){
                     <a href="#Apropos" className='aNavbar'><li className='responLi'>
                         À propos   
                     </li></a>
-                    <div className='line' id="Line1"></div>
+                    <div className='line' id="Line2"></div>
                     <a href="#Comp" className='aNavbar'><li className='responLi'>
                         Compétences
                     </li></a>
-                    <div className='line' id="Line2"></div>
+                    <div className='line' id="Line3"></div>
                     <a href='#real' className='aNavbar'><li className='responLi'>
                         Réalisations
                     </li></a>
