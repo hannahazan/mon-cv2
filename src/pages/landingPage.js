@@ -228,7 +228,7 @@ export default function Landing(){
                 </div >
                 <div className='pApropos'>
                    <p className='titleApropos'>A Propos de moi</p>
-                   <p className='paraApropos'>Depuis toujours passionnée par le domaine du jeux vidéo et l’informatique de manière plus large je tente aujourd’hui de concilier ces passions avec ma réalité professionnelle.<br/><br/>
+                   <p className='paraApropos'>Depuis toujours passionnée par le domaine du jeu vidéo et l’informatique de manière plus large je tente aujourd’hui de concilier ces passions avec ma réalité professionnelle.<br/><br/>
 C’est tout naturellement que je me suis dirigée vers le développement web afin d’entamer ma reconversion.<br/><br/>
 En effet après avoir suivi plusieurs formations  j’ai pû constater que ce domaine particulier de l’informatique avait le mérite de lier logique info et créativité qui sont, pour moi, deux pendants d’une reconversion réussie !<br/><br/> 
 Mon profil commercial et juridique sera, j'en suis certaine, un atout qui permettra d’apporter un regard neuf sur ce métier.<br/><br/>
@@ -776,7 +776,7 @@ Au plaisir de vous lire.
                                     color={'black'}
                                 />
                                 <p className='titleEnv'>Workflow:</p>
-                                <p className='pEnv'>Git, Github, Postman, Slack, Notion </p>
+                                <p className='pEnv' id="pEnvWork">Git, Github, Postman, Slack, Notion </p>
                             </div>
                             <div  className='containerIconP'>
                                 <Code
@@ -785,7 +785,7 @@ Au plaisir de vous lire.
                                 color={'black'}
                                 />
                                 <p className='titleEnv'>IDE:</p>
-                                <p className='pEnv'>Visual Studio Code,Vim </p>
+                                <p className='pEnv' id="pEnvIDE">Visual Studio Code,Vim </p>
                             </div>
                             <div  className='containerIconP'>
                                 <UserCircle
@@ -794,7 +794,7 @@ Au plaisir de vous lire.
                                     color={'black'}
                                 />
                                 <p className='titleEnv'>Savoir-être:</p>
-                                <p className='pEnv'>capacité d'adaptation, travail en équipe, organisation, rigueur, créativité</p>
+                                <p className='pEnv' id='pEnvSavoir'>capacité d'adaptation, travail en équipe, organisation, rigueur, créativité</p>
                             </div>
                         </div>
                     </div>

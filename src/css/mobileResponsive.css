@@ -386,9 +386,24 @@
         justify-content: center;
         padding-left: 20px;
     }
+    #pEnvWork{
+        margin-top: 34px;
+    }
+    .h1Env{
+        margin-bottom: 0px;
+    }
+    .pEnv{
+        width: 100%;
+    }
+    .pEnvIDE{
+        margin-top: 17px;
+    }
+    .pEnvSavoir{
+        margin-top: 55px;
+    }
     /*********section a propos**************/
     .paraAva {
-        margin-top: 5px;
+        margin-top: 9px;
         margin-bottom: 5px;
         margin-left: 5px;
         font-size: small;
