@@ -162,9 +162,9 @@ export default function Landing(){
                         <p className="devPblock2Ele"> en tant que</p>
                         <p className="devPblock2Ele" id="dev">Développeuse Web Full-stack</p>    
                     </div>
-                    <p className="devPblock2Resp">une Alternance en tant que Développeuse web Full-stack</p>
+                    <p className="devPblock2Resp">une <strong className='strongHeader'>Alternance</strong> en tant que <strong className='strongHeader'>Développeuse web Full-stack</strong></p>
                     <div>
-                        <p>sur Paris et sa région</p>
+                        <p>sur <strong className='strongHeader'>Paris</strong> et sa <strong className='strongHeader'>région</strong></p>
                     </div>
                 </section>
                 <section className="picto">
@@ -806,6 +806,7 @@ Au plaisir de vous lire.
                         />
                     </div>
                 </div>
+
             </section>
             <section className='réalisation' id="real">
                 <p className='pReal'>Réalisations</p>

@@ -108,6 +108,14 @@
     .containerMenu2{
         display: none;
     }
+    .strongHeader{
+        font-weight: 600;
+        font-style: italic;
+    }
+    .devPblock1{
+        font-style: normal;
+    }
+
     /*************section a propos***************/
     .pApropos{
         width: 100%;
@@ -390,5 +398,9 @@
     }
     .avatar {
         width: 50%;
+    }
+    .strongHeader{
+        font-weight: 600;
+        font-style: italic;
     }
 }
