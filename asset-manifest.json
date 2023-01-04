@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mon-cv2/static/css/main.7e0198b2.css",
+    "main.css": "/mon-cv2/static/css/main.3a558921.css",
     "main.js": "/mon-cv2/static/js/main.a045adb0.js",
     "static/media/pexels-kate-trifo-4057059.jpg": "/mon-cv2/static/media/pexels-kate-trifo-4057059.968ee6a9d32fc2836cad.jpg",
     "static/media/pexels-andrew-neel-8960464.jpg": "/mon-cv2/static/media/pexels-andrew-neel-8960464.ba50663d407dc98d95cd.jpg",
@@ -11,11 +11,11 @@
     "static/media/flappy.PNG": "/mon-cv2/static/media/flappy.ba21ca06e9256cb864e2.PNG",
     "index.html": "/mon-cv2/index.html",
     "static/media/xmark-solid.svg": "/mon-cv2/static/media/xmark-solid.d601978a6469fed27789c997645754be.svg",
-    "main.7e0198b2.css.map": "/mon-cv2/static/css/main.7e0198b2.css.map",
+    "main.3a558921.css.map": "/mon-cv2/static/css/main.3a558921.css.map",
     "main.a045adb0.js.map": "/mon-cv2/static/js/main.a045adb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e0198b2.css",
+    "static/css/main.3a558921.css",
     "static/js/main.a045adb0.js"
   ]
 }
