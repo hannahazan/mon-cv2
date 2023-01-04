@@ -108,6 +108,12 @@
     .containerMenu2{
         display: none;
     }
+    /*************section a propos***************/
+    .pApropos{
+        width: 100%;
+        line-height: 1.5;
+
+    }
     /********************************section1 main****************************************************/
     .Apropos{
         display: flex;
@@ -367,5 +373,18 @@
         flex-direction: row;
         justify-content: center;
         padding-left: 20px;
+    }
+    /*********section a propos**************/
+    .paraAva {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        font-size: small;
+    }
+    .containParaAva1{
+        margin-left: 85px;
+    }
+    .avatar {
+        width: 50%;
     }
 }

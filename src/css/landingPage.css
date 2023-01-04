@@ -153,6 +153,16 @@ main{
     margin-bottom: 5px;
     margin-left: 5px;
 }
+.pApropos{
+    width: 50%;
+    line-height: 1.5;
+}
+.titleApropos{
+    font: weight 100px;;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 /***********************************compétences********************************************/
 .compétences{
     background-color: 	#DCDCDC;
