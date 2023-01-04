@@ -523,7 +523,7 @@ main{
     border-radius: 26px;
     height: 52px;
     width: 150px;
-    background: linear-gradient(rgba(169,241,223,0.6) ,rgba(255,228,196,0.6) );
+    background: linear-gradient(rgba(237,110,160,0.6) ,rgba(236,140,105,0.6) );
     padding: 0px;
     border: none;
     color: #f7f7f7;
@@ -537,7 +537,7 @@ main{
     font-family: 'Montserrat', sans-serif; 
 }
 .hiddenButtonCardReal2:hover{
-    background: linear-gradient(rgba(169,241,223,1) ,rgba(255,228,196,1) );
+    background: linear-gradient(rgba(237,110,160,1) ,rgba(236,140,105,1) );
     box-shadow: 5px 5px 25px 2px #888;
 }
 /*****************section contact***************************/
@@ -584,7 +584,7 @@ main{
     border-radius: 26px;
     height: 52px;
     width: 150px;
-    background: linear-gradient(rgba(169,241,223,0.6) ,rgba(255,228,196,0.6) );
+    background: linear-gradient(rgba(237,110,160,0.6) ,rgba(236,140,105,0.6)  );
     padding: 0px;
     border: none;
     color: #f7f7f7;
@@ -598,11 +598,14 @@ main{
     font-family: 'Montserrat', sans-serif;
     margin-right:20px ;
 }
+.ButtonDownloadContact:hover{
+    background: linear-gradient(rgba(237,110,160,1) ,rgba(236,140,105,1)  );
+}
 .ButtonMailContact{
     border-radius: 26px;
     height: 52px;
     width: 150px;
-    background: linear-gradient(rgba(169,241,223,0.6) ,rgba(255,228,196,0.6) );
+    background: linear-gradient(rgba(237,110,160,0.6) ,rgba(236,140,105,0.6) );
     padding: 0px;
     border: none;
     color: #f7f7f7;
@@ -615,6 +618,9 @@ main{
     font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;
   
+}
+.ButtonMailContact:hover{
+    background: linear-gradient(rgba(237,110,160,1) ,rgba(236,140,105,1)  );
 }
 /***********footer********/
 footer{
