@@ -810,7 +810,7 @@ Au plaisir de vous lire.
             <section className='réalisation' id="real">
                 <p className='pReal'>Réalisations</p>
                 <div className="containercardreal">
-                    <div className='realisationCardFlappy' id='flappyId' onMouseOver={cardHoverFlappy} onMouseLeave={cardNotHoverFlappy}>
+                    <div className='realisationCardFlappy' id='flappyId' onMouseOver={cardHoverFlappy} onMouseLeave={cardNotHoverFlappy} onClick={cardHoverFlappy}>
                         <div className='filtreRealisation'>
                             <Link to="/flappyBird" className='Linkreal'>
                                 <div className='flappyButton' id='flappyButtonId'>FlappyBird
