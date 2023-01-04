@@ -277,6 +277,9 @@
 }
 
 @media (max-width:768px){
+    .picto{
+        margin-right: -10px;
+    }
     .devP{
         height: 60%;
     }
