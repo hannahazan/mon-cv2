@@ -128,6 +128,8 @@ main{
     margin-right: 20px;
     width: 80%;
     margin-top: 22px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #696969;
 }
 .text-wrapper{
     font-size: large;
