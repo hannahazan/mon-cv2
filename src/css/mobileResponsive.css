@@ -233,6 +233,11 @@
         animation-duration: 1s;
         animation-fill-mode: forwards; 
     }
+    .containerCardStarsAngular{
+        display: flex;
+        flex-direction: row;
+        margin-left: 64px;
+    }
    /**************section réalisation**********/
    .containercardreal{
     height: fit-content;
@@ -362,7 +367,7 @@
         width: 100%;
     }
     #Js6{
-        margin-left: 49px !important;
+        margin-left: 52px !important;
     }
     #PhotoShop{
         margin-left: 53px !important;
@@ -377,7 +382,7 @@
         margin-left: 53px !important;
     }
     #MUI{
-        margin-left: 45px !important;
+        margin-left: 49px !important;
     }
     .containerButtonContact {
         width: 100%;

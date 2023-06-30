@@ -348,11 +348,17 @@ main{
 .containerCardStars{
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
+    margin-left: 44px;
 }
 .containeCardCompP{
     width: 25%;
 }
+.containerCardStarsAngular{
+    display: flex;
+    flex-direction: row;
+    margin-left: 96px;
+}
+
 /******************************inside the competence card Back **********************************************/
 .containerCardCompBack{
     display: flex;

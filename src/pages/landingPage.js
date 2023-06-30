@@ -157,12 +157,10 @@ export default function Landing(){
                         <p>Bonjour, je m'appelle Hannah et je recherche</p>
                     </div>
                     <div className="devPblock2">
-                        <p className="devPblock2Ele">une</p>
-                        <p className="devPblock2Ele" id="alter">Alternance</p>
-                        <p className="devPblock2Ele"> en tant que</p>
-                        <p className="devPblock2Ele" id="dev">Développeuse Web Full-stack</p>    
+                        <p className="devPblock2Ele">un poste</p>
+                        <p className="devPblock2Ele" id="dev"> de développeuse Web Full-stack junior</p>    
                     </div>
-                    <p className="devPblock2Resp">une <strong className='strongHeader'>Alternance</strong> en tant que <strong className='strongHeader'>Développeuse web Full-stack</strong></p>
+                    <p className="devPblock2Resp">un poste de  <strong className='strongHeader'> Développeuse web Full-stack junior</strong></p>
                     <div>
                         <p>sur <strong className='strongHeader'>Paris</strong> et sa <strong className='strongHeader'>région</strong></p>
                     </div>
@@ -232,7 +230,7 @@ export default function Landing(){
 C’est tout naturellement que je me suis dirigée vers le développement web afin d’entamer ma reconversion.<br/><br/>
 En effet après avoir suivi plusieurs formations  j’ai pû constater que ce domaine particulier de l’informatique avait le mérite de lier logique info et créativité qui sont, pour moi, deux pendants d’une reconversion réussie !<br/><br/> 
 Mon profil commercial et juridique sera, j'en suis certaine, un atout qui permettra d’apporter un regard neuf sur ce métier.<br/><br/>
-Aujourd’hui à la recherche d’une alternance pour valider mon titre RNCP de développeuse j’espère que ces quelques lignes auront sû éveiller votre intérêt.<br/><br/>
+Aujourd’hui à la recherche d'un poste de développeuse web sur des technologies telles que react.js et Node.js, j’espère que ces quelques lignes auront sû éveiller votre intérêt.<br/><br/>
 Au plaisir de vous lire.
 </p>  
                 </div>
@@ -317,6 +315,7 @@ Au plaisir de vous lire.
                                             size={40}
                                             strokeWidth={2}
                                             color={'#974063'}
+                                            fill={'#974063'}
                                         />
                                     </div>
                                 </div>
@@ -351,6 +350,7 @@ Au plaisir de vous lire.
                                             size={40}
                                             strokeWidth={2}
                                             color={'#974063'}
+                                            fill={'#974063'}
                                         />
                                     </div>
                                 </div>
@@ -381,6 +381,7 @@ Au plaisir de vous lire.
                                             size={40}
                                             strokeWidth={2}
                                             color={'#974063'}
+                                            fill={'#974063'}
                                         />
                                          <Star
                                             size={40}
@@ -388,6 +389,42 @@ Au plaisir de vous lire.
                                             color={'#974063'}
                                         />
                                     </div>
+                                </div>
+                                <div className='containerCardAllCompPAndStar'>
+                                <div className='containerCardCompPandStar'>
+                                    <p className='containeCardCompP'>ANGULAR</p>
+                                    <div className='containerCardStarsAngular'>
+                                        <Star
+                                            size={40}
+                                            strokeWidth={2}
+                                            color={'#974063'}
+                                            fill={'#974063'}
+                                        />
+                                         <Star
+                                            size={40}
+                                            strokeWidth={2}
+                                            color={'#974063'}
+                                            fill={'#974063'}
+                                        />
+                                         <Star
+                                            size={40}
+                                            strokeWidth={2}
+                                            color={'#974063'}
+                                            fill={'#974063'}
+                                        />
+                                         <Star
+                                            size={40}
+                                            strokeWidth={2}
+                                            color={'#974063'}
+                                            fill={'#974063'}
+                                        />
+                                         <Star
+                                            size={40}
+                                            strokeWidth={2}
+                                            color={'#974063'}
+                                        />
+                                    </div>
+                                </div>
                                 </div>
                                 <div className='containerCardCompPandStar'>
                                     <p className='containeCardCompP'>MUI</p>
@@ -843,7 +880,7 @@ Au plaisir de vous lire.
             <section className='contact' id='contact'>
                 <div className='containerPContact'>
                     <p className='Pcontact'>Contactez-moi!</p>
-                    <p className='Pactuellement'>Actuellement à la recherche d'une <strong>Alternance</strong>, je suis disponible sur <strong>Paris</strong> et sa <strong>région</strong> pour tout entretien!</p>
+                    <p className='Pactuellement'> je suis disponible sur <strong>Paris</strong> et sa <strong>région</strong> pour tout entretien!</p>
                 </div>
                 <div className='containerButtonContact'>
                     <a href={cv} download={cv} className="aDownloadContact"><button type="submit" className='ButtonDownloadContact'>Télécharger mon CV</button></a>
