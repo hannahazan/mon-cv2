@@ -3,7 +3,7 @@ import '../css/landingPage.css'
 import '../css/mobileResponsive.css'
 import cross from '../pictures/xmark-solid.svg'
 import avatar from '../pictures/xavatario.png'
-import cv from '../downloads/Azan-Hannah-cv2.pdf'
+import cv from '../downloads/CV_hannah_Azan.pdf'
 import { LoremIpsum, Avatar } from 'react-lorem-ipsum'
 import { Home } from 'tabler-icons-react';
 import { Code } from 'tabler-icons-react';
