@@ -65,17 +65,10 @@ export default function Landing(){
         if(position >=1100){
             document.getElementById('animationCompFront').className="containerCompFront2"
         }
-        else{
-            console.log('hello')
-        }
         if(position>=1200){
             document.getElementById('animationCompBack').className="containerCompBack2"
             document.getElementById('containerCompDesignAnimation').className="containerCompDesign2"
             document.getElementById('containerCompEnvAnimation').className="containerCompEnv2"
-            console.log("salut")
-        }
-        else{
-            console.log('hello')
         }
        
     })
