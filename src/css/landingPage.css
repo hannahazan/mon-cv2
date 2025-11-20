@@ -406,6 +406,10 @@ main{
     font-weight: bold;
     margin-left: 5px;
 }
+
+.githubIcon{
+    width:4%
+}
 /****************************section réalisation************************************/
 .réalisation{
     height: fit-content;
