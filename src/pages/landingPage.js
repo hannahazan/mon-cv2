@@ -3,7 +3,8 @@ import '../css/landingPage.css'
 import '../css/mobileResponsive.css'
 import cross from '../pictures/xmark-solid.svg'
 import avatar from '../pictures/xavatario.png'
-import cv from '../downloads/CV_hannah_Azan.pdf'
+import cv from '../downloads/Azan-Hannah-cv-dev-full-stack.pdf'
+import github from '../pictures/github-142-svgrepo-com.svg'
 import { LoremIpsum, Avatar } from 'react-lorem-ipsum'
 import { Home } from 'tabler-icons-react';
 import { Code } from 'tabler-icons-react';
@@ -158,7 +159,7 @@ export default function Landing(){
                     </div>
                     <div className="devPblock2">
                         <p className="devPblock2Ele">un poste</p>
-                        <p className="devPblock2Ele" id="dev"> de développeuse Web Full-stack junior</p>    
+                        <p className="devPblock2Ele" id="dev"> de développeuse Web Full-stack</p>    
                     </div>
                     <p className="devPblock2Resp">un poste de  <strong className='strongHeader'> Développeuse web Full-stack junior</strong></p>
                     <div>
@@ -211,16 +212,12 @@ export default function Landing(){
                             <p className='paraAva'> Azan Hannah</p>
                         </div>
                         <div className='containParaAva2'>
-                            <p className='paraAvaBold'>Âge: </p>
-                            <p className='paraAva'> 35 ans</p>
-                        </div>
-                        <div className='containParaAva2'>
                             <p className='paraAvaBold'>ville: </p>
                             <p className='paraAva'> Paris</p>
                         </div>
                         <div className='containParaAva2'>
                             <p className='paraAvaBold'>hobbies: </p>
-                            <p className='paraAva'> lecture, piano, jeux vidéo, <br/> web-design et développement web</p>
+                            <p className='paraAva'> lecture, piano, Magic The gathering, <br/> web-design et développement web</p>
                         </div>
                     </div>
                 </div >
@@ -230,7 +227,7 @@ export default function Landing(){
 C’est tout naturellement que je me suis dirigée vers le développement web afin d’entamer ma reconversion.<br/><br/>
 En effet après avoir suivi plusieurs formations  j’ai pû constater que ce domaine particulier de l’informatique avait le mérite de lier logique info et créativité qui sont, pour moi, deux pendants d’une reconversion réussie !<br/><br/> 
 Mon profil commercial et juridique sera, j'en suis certaine, un atout qui permettra d’apporter un regard neuf sur ce métier.<br/><br/>
-Aujourd’hui à la recherche d'un poste de développeuse web sur des technologies telles que react.js et Node.js, j’espère que ces quelques lignes auront sû éveiller votre intérêt.<br/><br/>
+Aujourd’hui à la recherche d'un poste de développeuse web sur des technologies telles que react.js/Node.js ou encore Spring/Angular, j’espère que ces quelques lignes auront sû éveiller votre intérêt.<br/><br/>
 Au plaisir de vous lire.
 </p>  
                 </div>
@@ -535,6 +532,40 @@ Au plaisir de vous lire.
                                             />
                                         </div>
                                     </div>
+                                     <div className='containerCardCompPandStar'>
+                                            <p className='containeCardCompP'>ExpressJs</p>
+                                        <div className='containerCardStars'>
+                                            <Star
+                                                size={40}
+                                                strokeWidth={2}
+                                                color={'#F54768'}
+                                                fill={'#F54768'}
+                                            />
+                                            <Star
+                                                size={40}
+                                                strokeWidth={2}
+                                                color={'#F54768'}
+                                                fill={'#F54768'}
+                                            />
+                                            <Star
+                                                size={40}
+                                                strokeWidth={2}
+                                                color={'#F54768'}
+                                                fill={'#F54768'}
+                                            />
+                                            <Star
+                                                size={40}
+                                                strokeWidth={2}
+                                                color={'#F54768'}
+                                                fill={'#F54768'}
+                                            />
+                                            <Star
+                                                size={40}
+                                                strokeWidth={2}
+                                                color={'#F54768'}
+                                            />
+                                        </div>
+                                    </div>
                                     <div className='containerCardCompPandStar'>
                                         <p className='containeCardCompP'>MongoDB</p>
                                         <div className='containerCardStars'>
@@ -572,7 +603,7 @@ Au plaisir de vous lire.
                                 </div>
                                 <div className='containerCardAllCompPAndStar'>
                                     <div className='containerCardCompPandStar'>
-                                                <p className='containeCardCompP'>PHP</p>
+                                                <p className='containeCardCompP'>Java</p>
                                             <div className='containerCardStars'>
                                                 <Star
                                                     size={40}
@@ -590,12 +621,50 @@ Au plaisir de vous lire.
                                                     size={40}
                                                     strokeWidth={2}
                                                     color={'#F54768'}
+                                                    fill={'#F54768'}
                                                     
                                                 />
                                                 <Star
                                                     size={40}
                                                     strokeWidth={2}
                                                     color={'#F54768'}
+                                                    fill={'#F54768'}
+                                                    
+                                                />
+                                                <Star
+                                                    size={40}
+                                                    strokeWidth={2}
+                                                    color={'#F54768'}
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className='containerCardCompPandStar'>
+                                                <p className='containeCardCompP'>Spring</p>
+                                            <div className='containerCardStars'>
+                                                <Star
+                                                    size={40}
+                                                    strokeWidth={2}
+                                                    color={'#F54768'}
+                                                    fill={'#F54768'}
+                                                />
+                                                <Star
+                                                    size={40}
+                                                    strokeWidth={2}
+                                                    color={'#F54768'}
+                                                    fill={'#F54768'}
+                                                />
+                                                <Star
+                                                    size={40}
+                                                    strokeWidth={2}
+                                                    color={'#F54768'}
+                                                    fill={'#F54768'}
+                                                    
+                                                />
+                                                <Star
+                                                    size={40}
+                                                    strokeWidth={2}
+                                                    color={'#F54768'}
+                                                    fill={'#F54768'}
                                                     
                                                 />
                                                 <Star
@@ -624,12 +693,14 @@ Au plaisir de vous lire.
                                                     size={40}
                                                     strokeWidth={2}
                                                     color={'#F54768'}
+                                                    fill={'#F54768'}
                                                 
                                                 />
                                                 <Star
                                                     size={40}
                                                     strokeWidth={2}
                                                     color={'#F54768'}
+                                                    fill={'#F54768'}
                                                     
                                                 />
                                                 <Star
@@ -807,13 +878,9 @@ Au plaisir de vous lire.
                         <div className='h1Env' id='workflow'>Environnement de travail</div>
                         <div className='containerCardCompEnv'>
                             <div className='containerIconP'>
-                                <DeviceDesktop
-                                    size={30}
-                                    strokeWidth={2}
-                                    color={'black'}
-                                />
-                                <p className='titleEnv'>Workflow:</p>
-                                <p className='pEnv' id="pEnvWork">Git, Github, Postman, Slack, Notion </p>
+                                <img src={github} className='githubIcon'></img>
+                                <p className='titleEnv'>Versionning :</p>
+                                <p className='pEnv' id="pEnvWork">Git, Github </p>
                             </div>
                             <div  className='containerIconP'>
                                 <Code
@@ -821,8 +888,17 @@ Au plaisir de vous lire.
                                 strokeWidth={2}
                                 color={'black'}
                                 />
-                                <p className='titleEnv'>IDE:</p>
-                                <p className='pEnv' id="pEnvIDE">Visual Studio Code,Vim </p>
+                                <p className='titleEnv'>IDE :</p>
+                                <p className='pEnv' id="pEnvIDE">Visual Studio Code, Intellij </p>
+                            </div>
+                            <div className='containerIconP'>
+                                <DeviceDesktop
+                                    size={30}
+                                    strokeWidth={2}
+                                    color={'black'}
+                                />
+                                <p className='titleEnv'>CI/CD :</p>
+                                <p className='pEnv' id="pEnvWork">Jacoco, Sonarqube, Docker, DockerCompose, GitHub Actions </p>
                             </div>
                             <div  className='containerIconP'>
                                 <UserCircle
@@ -830,7 +906,7 @@ Au plaisir de vous lire.
                                     strokeWidth={2}
                                     color={'black'}
                                 />
-                                <p className='titleEnv'>Savoir-être:</p>
+                                <p className='titleEnv'>Savoir-être :</p>
                                 <p className='pEnv' id='pEnvSavoir'>capacité d'adaptation, travail en équipe, organisation, rigueur, créativité</p>
                             </div>
                         </div>
