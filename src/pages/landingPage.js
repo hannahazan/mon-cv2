@@ -97,6 +97,14 @@ export default function Landing(){
         document.getElementById('passwordgeneratorId').className='flappyButton'
         document.getElementById('hiddenButtonCardRealIdPassword').className='hiddenButtonCardReal'
     }
+    const cardHoverMagicTrade=()=>{
+        document.getElementById('MagictradeId').className='flappyButton2'
+        document.getElementById('hiddenButtonCardRealIdMagicTrade').className='hiddenButtonCardReal2'
+    }
+    const cardNotHoverMagicTrade=()=>{
+        document.getElementById('MagictradeId').className='flappyButton'
+        document.getElementById('hiddenButtonCardRealIdMagicTrade').className='hiddenButtonCardReal'
+    }
     return(
    <div className="all">    
         <header id='Navid'>
@@ -940,6 +948,17 @@ Au plaisir de vous lire.
                                 <Link to="/PasswordGenerator" className='Linkreal'>
                                     <div className='flappyButton' id='passwordgeneratorId'>passwordgenerator
                                         <button className='hiddenButtonCardReal' id='hiddenButtonCardRealIdPassword'>Aller voir</button>
+                                    </div>
+                                </Link>
+                            </div> 
+                    </div>
+                </div>
+                <div className='containercardreal2'>
+                    <div className='realisationMagicTrade'>
+                            <div className='filtreRealisation' onMouseOver={cardHoverMagicTrade} onMouseLeave={cardNotHoverMagicTrade}>
+                                <Link to='/MagicTrade' className='Linkreal'>
+                                    <div className='flappyButton' id='MagictradeId'>MagicTrade
+                                        <button className='hiddenButtonCardReal' id='hiddenButtonCardRealIdMagicTrade'>Aller voir</button>
                                     </div>
                                 </Link>
                             </div> 

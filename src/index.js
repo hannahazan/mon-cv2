@@ -11,6 +11,7 @@ import Landing from './pages/landingPage.js'
 import WayToGoFlappy from './path/WayToGoFlappy.js';
 import WayToGoProjet3 from './path/wayToGoProjet3.js';
 import WayToGoPasswordGenerator from './path/WayToGoPasswordGenerator.js'
+import WayToGoToMagicTrade from './path/wayToGoToMagicTrade.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path='/flappyBird' exact element={<WayToGoFlappy />}/>
         <Route path='/projet3' exact element={<WayToGoProjet3/>}/> 
         <Route path='/PasswordGenerator' exact element={<WayToGoPasswordGenerator/>}/> 
+        <Route path='/MagicTrade' exact element={<WayToGoToMagicTrade/>}/>
     </Routes>
   </BrowserRouter>
 );
